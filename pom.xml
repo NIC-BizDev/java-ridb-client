@@ -4,7 +4,7 @@
 
   <groupId>com.nicusa.bizdev</groupId>
   <artifactId>java-ridb-client</artifactId>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>java-ridb-client</name>
