@@ -29,6 +29,12 @@ public class RIDBClient {
 		RIDBOrganizationResponse response = new RestTemplate().getForObject(url, RIDBOrganizationResponse.class);
 		return response.getOrganizations();
 	}
+
+	public List<RIDBTour> getAllTours() {
+		String url = RIDBUrl.createRidbUrl("/tours", API_KEY);
+		RIDBAllToursResponse response = new RestTemplate().getForObject(url, RIDBAllToursResponse.class);
+		return response.getTours();
+	}
 	
 	
 }
